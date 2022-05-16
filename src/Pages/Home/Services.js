@@ -19,12 +19,12 @@ const Services = () => {
         {
             _id: 3,
             img: whitening,
-            serviceTitle: 'Teeth Whitening'
+            serviceTitle: 'Teeth Whitening' 
         }
     ]
     return (
-        <div>
-            <div className='my-16 text-center'>
+        <div className='my-16'>
+            <div className='my-12 text-center'>
                 <h3 className='font-bold text-primary text-2xl uppercase'>Our Services</h3>
                 <h2 className=' text-4xl'>Services We Provide</h2>
             </div>
